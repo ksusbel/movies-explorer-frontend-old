@@ -1,15 +1,15 @@
 import { Route, Routes } from "react-router-dom";
 
-import Header from "../Header/Header";
-import "../Main/Main";
-import "../Footer/Footer";
-import "../Movies/Movies";
-import "../Register/Register";
-import "../Login/Login";
-import "../Profile/Profile";
-import "../NotFoundPage/NotFoundPage";
 import "./App.css";
+import Header from "../Header/Header";
 import Main from "../Main/Main";
+import Movies from "../Movies/Movies";
+import SavedMovies from "../SavedMovies/SavedMovies";
+import Register from "../Register/Register";
+import Login from "../Login/Login";
+import Profile from "../Profile/Profile";
+import NotFoundPage from "../NotFoundPage/NotFoundPage";
+import Footer from "../Footer/Footer";
 
 function App() {
     return (

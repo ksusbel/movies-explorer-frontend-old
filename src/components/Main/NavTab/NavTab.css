@@ -1,0 +1,20 @@
+.nav-tab {    
+    margin: 0 auto;   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;    
+  }
+  
+  .nav-tab__button {
+    color: #fff; 
+    border-radius: 10px;
+    background-color: #303030;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-decoration: none;
+    text-align: center;
+    width: 96px;    
+    padding: 10px 0;   
+  }

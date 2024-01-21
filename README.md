@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# Дипломный проект: Фильмы
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Размещение фротнетнд-части дипломного проекта.
+Для проекта был выбран дизайн в ПО Figma: https://www.figma.com/file/6FMWkB94wE7KTkcCgUXtnC/%D0%94%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%BD%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82?type=design&node-id=1-298&mode=design&t=vKknvfkaGgouYu6e-0
+___________________________
+## Описание сайта:
+* Данный сайт предназначен для просмотра и сохранения фильмов в личном кабинете под своей учетной записью.
 
-## Available Scripts
+___________________________
+## Функциональность:
+* Сайт работает в бразуерах: Firefox, Google Chrome, Yandex (кросбраузерность).
+* Сайт адаптивный, т.е. оптимальное отображение интерфейсов на устройствах с разным разрешением экранов (320-767px - для мобильных устройств, 768px-1023px - планшетов, 1024px-1279px - ноутбуков, 1280+ - компьтеров).
+* Педусмотрено просмотр своей учетной записи.
+* Педусмотрено сохранения выбранных фильмов в личном кабинете.
+* Регистрация и авторизация пользователей.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+___________________________
+## Технологии:
+* Сайт сделан по макету с дизайнерской программы Figma.
+* Выравнивание и построение сетки блоков (flex-технология).
+* Выравнивание и построение сетки блоков (grid-технология).
+* Дерево папок и файлов для стилей (CSS).
+* Подключение шрифтов (@font-face).
+* Применение свойства @media для адаптивности сайта.
+* Применение языка программирования Java Script для работы модельного окна и данных в них, а также для интерактивности сайта.
+* Использование библиотеки React: React Router, защищенные маршруты, авторизация через JWT, работа с Local Starage.
